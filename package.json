@@ -1,0 +1,25 @@
+{
+  "name": "ebooksalesapp_t",
+  "version": "1.0.0",
+  "description": "App to sell ebook",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmwhynot/ebooksalesapp_t.git"
+  },
+  "author": "David Whynot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidmwhynot/ebooksalesapp_t/issues"
+  },
+  "homepage": "https://github.com/davidmwhynot/ebooksalesapp_t#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "stripe": "^5.4.0"
+  }
+}
